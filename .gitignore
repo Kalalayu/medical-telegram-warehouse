@@ -4,3 +4,4 @@ __pycache__/
 data/raw/
 logs/
 telegram_session.session
+telegram_session.session-journal
