@@ -12,3 +12,4 @@ telegram_session.session-journal
 target/
 
 dbt_packages/
+telegram_session.session-journal
