@@ -4,4 +4,12 @@ __pycache__/
 data/raw/
 logs/
 telegram_session.session
+.env
+
+.user.yml
+telegram_session.session-journal
+
+target/
+
+dbt_packages/
 telegram_session.session-journal
