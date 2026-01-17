@@ -11,5 +11,114 @@ telegram_session.session-journal
 
 target/
 
+
 dbt_packages/
 telegram_session.session-journal
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+############################
+# Virtual Environments
+############################
+venv/
+.venv/
+.env
+.env.*
+.python-version
+
+############################
+# Jupyter / Notebooks
+############################
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+############################
+# OS / Editor
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Logs & Temp
+############################
+*.log
+*.tmp
+*.bak
+
+############################
+# Data Lake (Task 1)
+############################
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+############################
+# Telegram API & Sessions (Task 1–3)
+############################
+# Telethon / Pyrogram sessions
+*.session
+*.session-journal
+
+# Telegram cache / downloads
+telegram_cache/
+telegram_downloads/
+
+# API secrets
+telegram_api.env
+telegram_secrets.json
+
+############################
+# YOLO / CV Artifacts (Task 3)
+############################
+runs/
+*.pt
+*.onnx
+*.engine
+
+############################
+# dbt (Task 2 & 3)
+############################
+target/
+dbt_packages/
+logs/
+.partial_parse.msgpack
+
+############################
+# Database / Secrets
+############################
+profiles.yml
+*.sqlite
+*.db
+*.dump
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+*.pid
+
+############################
+# Tests / Coverage
+############################
+.coverage
+htmlcov/
+.pytest_cache/
+
+############################
+# Misc
+############################
+.user.yml
