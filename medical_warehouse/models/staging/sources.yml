@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: Raw data ingested from Telegram and YOLO detection outputs
+    tables:
+      - name: image_detections
+        description: Object detection results from YOLOv8
+        columns:
+          - name: message_id
+            tests:
+              - not_null
+          - name: detected_class
+          - name: confidence_score
+          - name: image_category
