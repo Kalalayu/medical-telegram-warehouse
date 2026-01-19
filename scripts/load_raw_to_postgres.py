@@ -34,3 +34,4 @@ for file in files:
 conn.commit()
 cur.close()
 conn.close()
+print("Loading raw data into Postgres...")
