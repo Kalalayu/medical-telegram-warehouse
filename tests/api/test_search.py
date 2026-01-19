@@ -32,7 +32,8 @@ def test_message_search():
         return FakeDB()
 
     app.dependency_overrides = {}
-    app.dependency_overrides[get_db] = fake_get_db
+    app.dependency_overrides[get_db] = lambda: FakeDB()
+
 
     # 4. Call API
     response = client.get("/api/search/messages?query=para&limit=5")
