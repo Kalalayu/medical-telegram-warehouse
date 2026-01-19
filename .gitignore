@@ -122,3 +122,6 @@ htmlcov/
 # Misc
 ############################
 .user.yml
+.env
+venv/
+__pycache__/
